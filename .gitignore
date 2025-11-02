@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境变量和敏感信息
+.env
+.env.local
+*.key
+*.pem
+config.ini
+secrets.yaml
+
+# 数据文件
+*.csv
+*.xlsx
+*.xls
+data/
+datasets/
+
+# 模型文件（如果太大）
+*.pth
+*.pt
+*.h5
+*.ckpt
+models/
+checkpoints/
+
+# 日志文件
+*.log
+logs/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+
+# 其他
+*.bak
+*.tmp
+temp/
+
